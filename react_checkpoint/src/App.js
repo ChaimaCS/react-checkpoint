@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -121,6 +120,39 @@ function App() {
         </div>
       </div>
     </section>
+    
+{/* fields*/}
+<div id="carouselExampleControls" class="carousel slide bg-secondary" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+    <h3 class="serv ">Mines and quarries</h3>
+                <p class="serv-text">
+                We intervene in the field of mining and particularly open-pit quarries, whether for the search of new exploitation sites,
+                <br></br> the extension of already existent sites and/or the restoration of abandoned sites.
+                </p>
+    </div>
+    <div class="carousel-item">
+    <h3 class="serv">Environment</h3>
+                <p class="serv-text">
+                Sustainable development has always been our primary concern. <br></br> That's why we follow and establish studies based on a concrete environmental policy and strategy.
+                </p>
+    </div>
+    <div class="carousel-item">
+    <h3 class="serv ">Security</h3>
+                <p class="serv-text">
+                Hazard studies serve to evaluate all potential accidental risks, their impact on people and property, and the damage to the environment. <br></br> For each hazardous phenomenon identified, prevention and protection measures will be defined.
+                </p>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
 
 {/* formulaire*/}
 <div > <h3 class='text-center'>Contact us for further details or services</h3>
